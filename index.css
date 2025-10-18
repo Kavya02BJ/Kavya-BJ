@@ -1,46 +1,15 @@
-h1{
-    /* background-color: aqua; */
-}
-p{
-    /* background-color: mediumaquamarine; */
-}
-#heading{
-    text-align: center;
-    /* color: blueviolet; */
-}
-*{
-    /* text-align: center; */
-    background-color: wheat;
-
-}
-.span{
-    text-align: right;
-    color:brown; 
-    font-size: 56px;
-    background-color: aliceblue;
-}
-*{
-    text-align: center;
-    /* color: blue; */
-}
-h1,h2,p{
-    text-align:center;
-    color:rgb(7, 155, 51);
-}
-
-
-div>p{
-    color:blueviolet;
-    text-align: center;
-}
-div p{
-    color:aqua;
-    font-size: 50px;
-}
-div>h1{
-    color:yellow;
-}
 a:hover{
-    background-color: pink;
+    background-color:violet;
+    color:white;
 }
-
+p::first-line{
+    color:brown;
+    font-size: 25px; 
+}
+p[align]{
+    background-color: aqua;
+}
+img[title=css]{
+    border:50px solid blue;
+    
+}  
